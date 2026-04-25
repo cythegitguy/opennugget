@@ -1,0 +1,10812 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "aa2250c0-a601-425b-bf2c-be8a140b08ce")
+	(paper "A4")
+	(lib_symbols
+		(symbol "opennugget-eagle-import:3.3V"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.524 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3V Supply"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3.3V_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "3.3V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "opennugget-eagle-import:AGND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#AGND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -5.08 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AGND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.0922 -0.508) (xy 1.0922 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "opennugget-eagle-import:AVDD"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.524 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Analog VDD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AVDD_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "AVDD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "opennugget-eagle-import:CAP_CERAMIC0603_NO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.29 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.3 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "opennugget:0603-NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP_CERAMIC0603_NO_1_0"
+				(rectangle
+					(start -1.27 1.524)
+					(end 1.27 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "opennugget-eagle-import:CAP_CERAMIC0805-NOOUTLINE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.29 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.3 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "opennugget:0805-NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP_CERAMIC0805-NOOUTLINE_1_0"
+				(rectangle
+					(start -1.27 1.524)
+					(end 1.27 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "opennugget-eagle-import:FERRITE-0603NO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -1.27 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -1.27 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "opennugget:0603-NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite Bead\n\n0603\n\n• MMZ1608B121C - 120 Ohm @ 100MHz, 600mA, 0.15 Ohm DC Resistance - Digikey: 445-2164-1-ND\n• BK1608HW121-T - 120 Ohm, 600mA Ferrite Chip - Digikey: 587-1876-2-ND\n\n0805\n\n• HZ0805B272R-10 - 2.7K Ohm @ 100MHz, 200mA, 0.8 Ohm DC Resistance - Digikey: 240-2504-1-ND (see also Murata BLM21BD272SN1L)\n• MMZ2012Y152B - 1.5K Ohm @ 100MHz, 500mA, 0.4 Ohm DC Resistance - Digikey: 445-1560-1-ND - Mainly for high frequency (80-400MHz)\n• MMZ2012R102A - 1K Ohm @ 100MHz, 500mA, 0.3 Ohm DC Resistance - Digikey: 445-1555-2-ND - More general purpose (10-200MHz)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FERRITE-0603NO_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0.9525) (xy 1.27 0.9525)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.9525) (xy -1.27 0.9525)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.9525) (xy 1.27 -0.9525)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.9525) (xy -1.27 -0.9525)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "opennugget-eagle-import:HEADER-1X1070MIL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -6.35 13.335 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -17.78 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "opennugget:1X10_ROUND70"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PIN HEADER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HEADER-1X1070MIL_1_0"
+				(polyline
+					(pts
+						(xy -6.35 12.7) (xy -6.35 -15.24)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -15.24) (xy 1.27 -15.24)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 12.7) (xy -6.35 12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -15.24) (xy 1.27 12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 10.16 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "opennugget-eagle-import:MOUNTINGHOLE2.5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "opennugget:MOUNTINGHOLE_2.5_PLATED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole\n\nFor #2 screws (0.086\"/2.18mm width, 0.094\"/2.4mm hole) use 2.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MOUNTINGHOLE2.5_1_0"
+				(circle
+					(center 0 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "opennugget-eagle-import:PCM5122"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 36.56 0)
+				(effects
+					(font
+						(size 2.0828 1.7703)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -12.7 -29.4 0)
+				(effects
+					(font
+						(size 2.0828 1.7703)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "opennugget:SSOP-28N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PCM5122_1_0"
+				(polyline
+					(pts
+						(xy -12.7 35.56) (xy 12.7 35.56)
+					)
+					(stroke
+						(width 0.41)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -25.4) (xy -12.7 35.56)
+					)
+					(stroke
+						(width 0.41)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 35.56) (xy 12.7 -25.4)
+					)
+					(stroke
+						(width 0.41)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -25.4) (xy -12.7 -25.4)
+					)
+					(stroke
+						(width 0.41)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -17.78 33.02 0)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 30.48 0)
+					(length 5.08)
+					(name "CPVDD"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 27.94 0)
+					(length 5.08)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 22.86 0)
+					(length 5.08)
+					(name "BCK"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 20.32 0)
+					(length 5.08)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 17.78 0)
+					(length 5.08)
+					(name "LRCK"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 15.24 0)
+					(length 5.08)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "ADR1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "ADR2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "MODE1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "MODE2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "GPIO5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -10.16 0)
+					(length 5.08)
+					(name "GPIO6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -17.78 0)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -20.32 0)
+					(length 5.08)
+					(name "CPGND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -22.86 0)
+					(length 5.08)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 33.02 180)
+					(length 5.08)
+					(name "CAPP"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 27.94 180)
+					(length 5.08)
+					(name "CAPM"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 22.86 180)
+					(length 5.08)
+					(name "OUTL"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 17.78 180)
+					(length 5.08)
+					(name "OUTR"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "VCOM"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "VNEG"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "LDOO"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "XSMT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "opennugget-eagle-import:RESISTOR_0603_NOOUT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(thickness 0.2032)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "opennugget:0603-NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESISTOR_0603_NOOUT_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "opennugget-eagle-import:RESISTOR_4PACK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(thickness 0.2032)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "opennugget:RESPACK_4X0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor Packs (4 resistors)\n\n4 x 0603\n\n• 10K 1/16W - Digikey: YC164J-10KCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_2_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_3_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RESISTOR_4PACK_4_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "opennugget-eagle-import:SOLDERJUMPER"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SJ"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "opennugget:SOLDERJUMPER_ARROW_NOPASTE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SOLDERJUMPER_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.651 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 -0.635)
+					(mid -1.0159 0.0001)
+					(end -0.3808 0.635)
+					(stroke
+						(width 1.27)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.381 0.635)
+					(mid 1.0159 -0.0001)
+					(end 0.3808 -0.635)
+					(stroke
+						(width 1.27)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.651 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "opennugget-eagle-import:TRRS_2SWITCH_PJ332A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at -2.54 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.08 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "opennugget:PJ-332A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TRRS_2SWITCH_PJ332A_1_0"
+				(polyline
+					(pts
+						(xy -10.16 6.35) (xy -8.89 6.35)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -2.54) (xy -10.16 6.35)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 7.62) (xy -8.89 6.35)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 6.35) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -10.16 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -3.81 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy -8.89 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "RING"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "RING2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "R2_SW"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "TIP_SW"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "TIP"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "RING1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "opennugget-eagle-import:VIN"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.524 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "VIN Supply Symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VIN_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "opennugget-eagle-import:VREG_SOT23-5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "opennugget:SOT23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOT23-5 Fixed Voltage Regulators\n\nPart Current Out V Out V In V Dropout θJA (°C/W) TJ (°C) Digikey Part No.     ADP121   150mA   3.3V   3.4-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ33R7CT-ND     ADP121   150mA   3.0V   3.1-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ30R7CT-ND     ADP122   300mA   3.3V   3.4-5.5V   0.085V @ 300mA   --   --   ADP122AUJZ-3.3-R7CT-ND     ADP1712   300mA   3.3V   3.5-5.5V   0.17V @ 300mA   --   --   ADP1712AUJZ-3.3-R7TR-ND     AP7311 (Low Cost)   150mA   3.3V   3.5-6V   0.15V @ 150mA   --   --   AP7311-33WG-7DICT-ND      LD39015M18R   150mA   1.8V   1.9V-5.5V   0.08V @ 100mA   --   --   497-6977-1-ND      LP2985A-33DBVR   150mA   3.3V   3.3-16V   0.28V @ 150mA   206   150   296-18479-1-ND      MCP1824T-3302E/OT   300mA   3.3V   3.5V-6V   0.2V @ 300mA   --   --   MCP1824T-3302E/OTCT-ND      MIC5205-2.5YM5 TR   150mA   2.5V   2.7-16V   0.165V @ 150mA   --   --   576-1257-2-ND     MIC5205-3.0YM5 TR   150mA   3.0V   3.2V-16V   0.165V @ 150mA   --   --   576-1258-2-ND     MIC5205-3.3YM5 TR   150mA   3.3V   3.5V-16V   0.165V @ 150mA   --   --   576-1259-2-ND     TPS780330220   150mA   3.3V+2.2V   3.6-5.5V   250mV Max   --   --   296-23332-1-ND     TDA3663/N1,135   100mA   3.3V   3.5-45V   0.18V @ 50mA   --   --   568-5343-1-ND\n\nMax operating temp can be calculated using θJA, TJ (max junction temperature), and power in watts.  Set the \"Maximum Ambient Temperature\" until it reaches TJ (\"Max Junction Temperature\"), which is the absolute limit for safe use of the regulator: http://www.daycounter.com/Calculators/Heat-Sink-Temperature-Calculator.phtml Heat Sink Temperature Calculator\n\nFor example, With 12V source into a 3.3V LP2985 and a 30mA load, we are dissipating (12V-3.3V) * 0.03A = 0.261W.  With a θJA of 206 °C/W, a TJ of 150°C, and 261mW we can safely use the chip without a heat sink up to 75°C (=147.1°C Junction Temperature)."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VREG_SOT23-5_1_0"
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "P4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "MUTE:\nLOW = Mute Off\nHIGH = Mute On"
+		(exclude_from_sim no)
+		(at 157.48 138.43 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "295d4826-7d56-4186-a0f6-8c040f153a76")
+	)
+	(text "DEEM:\nLOW = De-emphasis off\nHIGH = De-emphasis on"
+		(exclude_from_sim no)
+		(at 157.48 151.13 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd53d90d-6571-443f-9e47-db4b15fe62b2")
+	)
+	(junction
+		(at 137.16 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1828b754-dac9-46a4-b934-e7f19df60543")
+	)
+	(junction
+		(at 91.44 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f900276-3f24-4a09-bf6d-c08f13ae75f1")
+	)
+	(junction
+		(at 25.4 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25354c22-6ac2-4fd9-8e28-866ead46f9d4")
+	)
+	(junction
+		(at 137.16 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39d205ce-edb3-4dd0-a616-632eb7a657cf")
+	)
+	(junction
+		(at 91.44 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46c1e10b-45ae-4d76-bd5e-d7b37952f2ac")
+	)
+	(junction
+		(at 215.9 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61d66ac8-a7f7-4de4-a2f6-206f9df5115e")
+	)
+	(junction
+		(at 215.9 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f4f7974-1262-4b38-8a2d-c8534059f83d")
+	)
+	(junction
+		(at 60.96 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae4ba91d-6108-43a8-8266-83723b89773f")
+	)
+	(junction
+		(at 30.48 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3128f8a-5d42-415e-b69e-58a60ca20fc5")
+	)
+	(junction
+		(at 175.26 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb3306e3-c39e-4c14-b96b-613d73e42bb8")
+	)
+	(junction
+		(at 91.44 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf475569-e6a0-4b09-b8a5-6643cf60199a")
+	)
+	(junction
+		(at 175.26 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc97b6e1-8b23-428c-a7c2-1b129180d400")
+	)
+	(wire
+		(pts
+			(xy 86.36 176.53) (xy 86.36 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "02b9c40d-3eab-416f-b306-f68e34c7879a")
+	)
+	(wire
+		(pts
+			(xy 162.56 92.71) (xy 162.56 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "052c3544-29c7-4790-ac32-b5bad225288b")
+	)
+	(wire
+		(pts
+			(xy 127 92.71) (xy 162.56 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0702cf61-9300-4f34-a3b0-39cabcd808c1")
+	)
+	(wire
+		(pts
+			(xy 33.02 153.67) (xy 33.02 166.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "07cbf64f-0d7b-4d3a-aa7f-1916895f2be5")
+	)
+	(wire
+		(pts
+			(xy 137.16 115.57) (xy 137.16 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "087cfcc8-acf4-4777-a987-cdb551cf5c27")
+	)
+	(wire
+		(pts
+			(xy 91.44 133.35) (xy 91.44 138.43)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0a38daeb-c397-47ec-a771-516248467247")
+	)
+	(wire
+		(pts
+			(xy 91.44 113.03) (xy 73.66 113.03)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0d8243f8-a69a-4aa2-a5a4-ca0ce3364ec8")
+	)
+	(wire
+		(pts
+			(xy 127 29.21) (xy 127 31.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0e6af5f5-addd-4c96-8cec-d55d2150c3f0")
+	)
+	(wire
+		(pts
+			(xy 246.38 57.15) (xy 223.52 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "118f093f-3622-4a32-b3af-b3b975f941a7")
+	)
+	(wire
+		(pts
+			(xy 33.02 34.29) (xy 30.48 34.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "11aebaa0-7e8f-4a94-b302-39a4c4383401")
+	)
+	(wire
+		(pts
+			(xy 91.44 110.49) (xy 73.66 110.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "18087eda-110a-4890-8ef7-5c71f110749b")
+	)
+	(wire
+		(pts
+			(xy 226.06 133.35) (xy 215.9 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "18b6fba5-31eb-432e-ac91-9610f22429ae")
+	)
+	(wire
+		(pts
+			(xy 127 120.65) (xy 127 130.81)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1aa5830a-0a5b-4438-a907-d85b5dc75ddf")
+	)
+	(wire
+		(pts
+			(xy 246.38 92.71) (xy 223.52 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1ad6be14-169f-40c4-82d8-96a7ca4bee4b")
+	)
+	(wire
+		(pts
+			(xy 116.84 31.75) (xy 116.84 29.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1c2da0b5-0a25-4a54-8772-b9b4cf8d23f4")
+	)
+	(wire
+		(pts
+			(xy 137.16 110.49) (xy 127 110.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1c387849-4ac6-4a3e-8e51-feb2fdc2dc7f")
+	)
+	(wire
+		(pts
+			(xy 91.44 87.63) (xy 73.66 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1c872e8c-2722-415d-a450-63c75d7fa5f2")
+	)
+	(wire
+		(pts
+			(xy 132.08 77.47) (xy 127 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1ed1d3f9-c635-4e8c-856e-d1095b02bdb1")
+	)
+	(wire
+		(pts
+			(xy 33.02 36.83) (xy 30.48 36.83)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1f6aee1f-5799-491d-b357-88fd8fdb6fc6")
+	)
+	(wire
+		(pts
+			(xy 215.9 125.73) (xy 251.46 125.73)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1fdcc868-1e72-4060-86fa-b91d9088c10f")
+	)
+	(wire
+		(pts
+			(xy 99.06 34.29) (xy 93.98 34.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "21d80304-19e2-46b1-a119-2a0b480f5a00")
+	)
+	(wire
+		(pts
+			(xy 33.02 39.37) (xy 30.48 39.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2456231b-e327-4182-b31d-01483c42ea7a")
+	)
+	(wire
+		(pts
+			(xy 175.26 95.25) (xy 175.26 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "27901b44-532f-404f-a544-b8977076cddc")
+	)
+	(wire
+		(pts
+			(xy 116.84 39.37) (xy 116.84 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2cb1c14f-a3de-44b0-bd3b-2fea1b9c2ef3")
+	)
+	(wire
+		(pts
+			(xy 53.34 166.37) (xy 53.34 156.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "30e5521c-b620-41ca-a246-7a6c6b29d3a1")
+	)
+	(wire
+		(pts
+			(xy 127 100.33) (xy 142.24 100.33)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "33c41069-383b-4e90-95ab-73e6d7060c45")
+	)
+	(wire
+		(pts
+			(xy 83.82 34.29) (xy 83.82 29.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "34a03ec1-b4db-419e-96d2-151c7b91381b")
+	)
+	(wire
+		(pts
+			(xy 71.12 29.21) (xy 71.12 39.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "36347d40-b806-4931-8c18-d36d5830729e")
+	)
+	(wire
+		(pts
+			(xy 25.4 176.53) (xy 25.4 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "38eab4d2-c280-430f-bf81-0c346e8c7776")
+	)
+	(wire
+		(pts
+			(xy 142.24 77.47) (xy 139.7 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3c41fc86-4afb-4aa9-b76a-3e3a51f2206e")
+	)
+	(wire
+		(pts
+			(xy 30.48 39.37) (xy 30.48 49.53)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3dd18bf0-071b-4c4e-a594-9e404952c365")
+	)
+	(wire
+		(pts
+			(xy 48.26 166.37) (xy 48.26 156.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "40862c1b-f2fe-427a-ac04-57c1ad5bb9a4")
+	)
+	(wire
+		(pts
+			(xy 246.38 52.07) (xy 223.52 52.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "40d8e949-239d-4f1c-ab63-33d95dcca760")
+	)
+	(wire
+		(pts
+			(xy 142.24 125.73) (xy 137.16 125.73)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "44650188-bf7e-46fa-a456-1602fbf64f8e")
+	)
+	(wire
+		(pts
+			(xy 246.38 44.45) (xy 223.52 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "456ed8aa-6fef-4cd9-b2f3-966d9af5bc54")
+	)
+	(wire
+		(pts
+			(xy 91.44 120.65) (xy 73.66 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4aa62757-74a6-4b54-bb67-a07accdf5fe2")
+	)
+	(wire
+		(pts
+			(xy 25.4 46.99) (xy 25.4 49.53)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4ff59729-2f08-4a84-824e-98763094ba96")
+	)
+	(wire
+		(pts
+			(xy 48.26 176.53) (xy 48.26 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "515284dd-f9b1-4558-905a-6bf3da7e3ecd")
+	)
+	(wire
+		(pts
+			(xy 60.96 39.37) (xy 60.96 34.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5156069e-4b7c-4bb1-9870-237fed328b2b")
+	)
+	(wire
+		(pts
+			(xy 96.52 176.53) (xy 96.52 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5197d546-06c4-4b90-8971-b0c0212b691e")
+	)
+	(wire
+		(pts
+			(xy 25.4 34.29) (xy 25.4 29.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "51e55c36-e722-49f5-a748-e79993195b9c")
+	)
+	(wire
+		(pts
+			(xy 106.68 176.53) (xy 106.68 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "52210ce5-cf8d-4510-91a8-f2c9b6e8dbd7")
+	)
+	(wire
+		(pts
+			(xy 91.44 107.95) (xy 73.66 107.95)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "57ed9e91-7af3-4ac0-a62b-2cc62de19ed4")
+	)
+	(wire
+		(pts
+			(xy 246.38 100.33) (xy 218.44 100.33)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "58190aa3-ed66-4370-b62e-dcaa26129fe2")
+	)
+	(wire
+		(pts
+			(xy 91.44 130.81) (xy 91.44 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5cc9e3ea-ea13-4244-bc84-348e107e09e1")
+	)
+	(wire
+		(pts
+			(xy 127 161.29) (xy 96.52 161.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5effac53-6bdb-4066-ac78-3fe9947455a0")
+	)
+	(wire
+		(pts
+			(xy 215.9 128.27) (xy 215.9 130.81)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "619beee3-8758-4d12-8645-bfb0658a02e6")
+	)
+	(wire
+		(pts
+			(xy 246.38 102.87) (xy 223.52 102.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "64cf76c9-1568-46a5-bf73-5561871dcaad")
+	)
+	(wire
+		(pts
+			(xy 91.44 156.21) (xy 91.44 166.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "665f7f4b-9a69-447e-adcf-1519438fd393")
+	)
+	(wire
+		(pts
+			(xy 71.12 166.37) (xy 71.12 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "678be45b-ded3-4b1b-b3ee-a76247d3487d")
+	)
+	(wire
+		(pts
+			(xy 76.2 179.07) (xy 76.2 176.53)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6a0bf553-f980-4221-9edd-19ded1b9b58a")
+	)
+	(wire
+		(pts
+			(xy 127 97.79) (xy 152.4 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6ae8eda2-e279-4f83-960d-b80eef62cf87")
+	)
+	(wire
+		(pts
+			(xy 91.44 92.71) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "726668e2-1eb3-49c7-be24-61034399c0ab")
+	)
+	(wire
+		(pts
+			(xy 73.66 90.17) (xy 91.44 90.17)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "746bc13d-bc93-4c52-a53e-b520e3f3064d")
+	)
+	(wire
+		(pts
+			(xy 91.44 176.53) (xy 91.44 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "759a204c-a199-4cf6-9702-3b71707bd66c")
+	)
+	(wire
+		(pts
+			(xy 127 156.21) (xy 91.44 156.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "76a7ee20-980d-49e7-94c0-c4b2b9990970")
+	)
+	(wire
+		(pts
+			(xy 86.36 153.67) (xy 86.36 166.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "76e58fe7-e689-4159-8eb8-170963855742")
+	)
+	(wire
+		(pts
+			(xy 127 41.91) (xy 127 39.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7888cc28-223a-4e7c-bc31-b4c9f44d11aa")
+	)
+	(wire
+		(pts
+			(xy 91.44 128.27) (xy 91.44 130.81)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7da5cce7-dc5c-49a3-ad7d-18ca3faeb506")
+	)
+	(wire
+		(pts
+			(xy 91.44 118.11) (xy 73.66 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7ea5580d-102a-49ec-94d4-076a48b3c9e1")
+	)
+	(wire
+		(pts
+			(xy 60.96 34.29) (xy 60.96 29.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "85062f39-02cd-4603-9d2b-ff038661906c")
+	)
+	(wire
+		(pts
+			(xy 246.38 90.17) (xy 223.52 90.17)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "86e959e5-bf51-436a-a45a-076ff9b966a7")
+	)
+	(wire
+		(pts
+			(xy 175.26 95.25) (xy 185.42 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8a5749a8-8b70-42a3-b143-094891b2a949")
+	)
+	(wire
+		(pts
+			(xy 68.58 115.57) (xy 68.58 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8b4f6f69-91fe-4a2f-8fec-a5095fe1b735")
+	)
+	(wire
+		(pts
+			(xy 223.52 59.69) (xy 246.38 59.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "90076109-74ea-4ec1-a4a4-9932164196cf")
+	)
+	(wire
+		(pts
+			(xy 99.06 29.21) (xy 99.06 34.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "90a47db5-5e6c-43a8-9452-3fd48abc84ce")
+	)
+	(wire
+		(pts
+			(xy 175.26 105.41) (xy 175.26 110.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "90cc80f8-6761-4ce5-ac01-c522703d44ff")
+	)
+	(wire
+		(pts
+			(xy 246.38 49.53) (xy 223.52 49.53)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "93522d57-eca0-467e-bb8f-3963f79dcdf6")
+	)
+	(wire
+		(pts
+			(xy 109.22 31.75) (xy 109.22 29.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "947d1d36-c44d-4804-9003-7123b6952cb7")
+	)
+	(wire
+		(pts
+			(xy 127 87.63) (xy 162.56 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "95a97143-7f0a-47cd-89cb-f2d789d78a08")
+	)
+	(wire
+		(pts
+			(xy 25.4 39.37) (xy 25.4 34.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9a32d354-83f8-4ce4-9bd1-b9ebb94a0d00")
+	)
+	(wire
+		(pts
+			(xy 53.34 34.29) (xy 60.96 34.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9e6528c3-716e-42e8-ad76-6856eb591ee4")
+	)
+	(wire
+		(pts
+			(xy 71.12 176.53) (xy 71.12 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a01a50c6-0a61-4b22-a262-d1c5a61b4369")
+	)
+	(wire
+		(pts
+			(xy 172.72 95.25) (xy 175.26 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a1e5c41e-0614-43ce-97b9-f6f28199d228")
+	)
+	(wire
+		(pts
+			(xy 127 153.67) (xy 86.36 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a4fbb28b-e4f9-4a3e-acb3-b948f93a4ffa")
+	)
+	(wire
+		(pts
+			(xy 127 166.37) (xy 106.68 166.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a90239c0-fc00-45e4-accd-fc045a9e6ea7")
+	)
+	(wire
+		(pts
+			(xy 175.26 74.93) (xy 185.42 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a98ed5d6-4c37-4050-9f87-48a29d567a5d")
+	)
+	(wire
+		(pts
+			(xy 246.38 82.55) (xy 218.44 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aa3d04fd-f242-4b29-a93e-03916d28e02e")
+	)
+	(wire
+		(pts
+			(xy 91.44 80.01) (xy 91.44 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aba2b67e-d4b8-4301-8cc6-533c8e5b2dab")
+	)
+	(wire
+		(pts
+			(xy 30.48 36.83) (xy 30.48 34.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "abf912e8-533d-4f2c-98a3-d507e68b7017")
+	)
+	(wire
+		(pts
+			(xy 91.44 115.57) (xy 68.58 115.57)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ac9988bb-f942-4e00-8f7b-1992dc8d0a2d")
+	)
+	(wire
+		(pts
+			(xy 223.52 54.61) (xy 246.38 54.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "acfc1270-cc2e-4ee2-971b-108c75cc7087")
+	)
+	(wire
+		(pts
+			(xy 127 107.95) (xy 137.16 107.95)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b461fa59-6164-404a-98de-077bc4903be3")
+	)
+	(wire
+		(pts
+			(xy 142.24 82.55) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b4d8e305-14a8-4a89-b8df-aeadb6f6e0b0")
+	)
+	(wire
+		(pts
+			(xy 162.56 87.63) (xy 162.56 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b8105387-264c-4ccb-b35e-4a2bd6d57079")
+	)
+	(wire
+		(pts
+			(xy 91.44 100.33) (xy 68.58 100.33)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bbc4abb7-6c3f-4eb7-87e4-119b5bdbac5e")
+	)
+	(wire
+		(pts
+			(xy 73.66 95.25) (xy 91.44 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bde316fe-05c0-48c3-967d-3ee0d03e6e18")
+	)
+	(wire
+		(pts
+			(xy 246.38 95.25) (xy 223.52 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bf924664-c5de-43ed-9548-143f8e054c18")
+	)
+	(wire
+		(pts
+			(xy 91.44 82.55) (xy 73.66 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bfd3e59d-e28b-4226-b495-8b98d71f17e4")
+	)
+	(wire
+		(pts
+			(xy 246.38 87.63) (xy 223.52 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c353e74c-bfa7-4c7e-a875-73f172ccce52")
+	)
+	(wire
+		(pts
+			(xy 215.9 123.19) (xy 215.9 125.73)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c3ff1a1d-ab4c-4de0-bb49-3d4aa9708dc6")
+	)
+	(wire
+		(pts
+			(xy 58.42 166.37) (xy 58.42 156.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c744579e-b8e3-4276-8cf9-f805622328d4")
+	)
+	(wire
+		(pts
+			(xy 246.38 62.23) (xy 223.52 62.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c89dfb63-5e29-4f2a-9c59-90e11b64577c")
+	)
+	(wire
+		(pts
+			(xy 246.38 85.09) (xy 223.52 85.09)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c8da1694-c09f-41af-bdef-e87326a9bce2")
+	)
+	(wire
+		(pts
+			(xy 71.12 49.53) (xy 71.12 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cbb36b13-7e7e-4fe3-b011-2890a0954a2a")
+	)
+	(wire
+		(pts
+			(xy 246.38 80.01) (xy 228.6 80.01)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cc8e8410-d62f-4b65-afa6-4d292cc66757")
+	)
+	(wire
+		(pts
+			(xy 101.6 176.53) (xy 101.6 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ce41a4c3-22d6-4975-a354-b3ace0760014")
+	)
+	(wire
+		(pts
+			(xy 96.52 161.29) (xy 96.52 166.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cfc94942-99b1-425a-b851-1d06a59a830f")
+	)
+	(wire
+		(pts
+			(xy 215.9 130.81) (xy 251.46 130.81)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d01da75e-f37e-40ec-bff7-e472de7e1582")
+	)
+	(wire
+		(pts
+			(xy 142.24 118.11) (xy 137.16 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d0fdde0d-ec67-4f6a-b717-34989dde2478")
+	)
+	(wire
+		(pts
+			(xy 109.22 39.37) (xy 109.22 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d2dc2598-31dc-42e9-ab05-402ed8b9a819")
+	)
+	(wire
+		(pts
+			(xy 226.06 120.65) (xy 215.9 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d3906aa4-9b88-4927-a6bf-5ea3b65d548f")
+	)
+	(wire
+		(pts
+			(xy 127 82.55) (xy 142.24 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d54b0cd3-5225-41b5-80e0-e501942bea3a")
+	)
+	(wire
+		(pts
+			(xy 91.44 102.87) (xy 60.96 102.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d58f1768-1a5a-4a1d-a287-cbe638eabe41")
+	)
+	(wire
+		(pts
+			(xy 88.9 34.29) (xy 83.82 34.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d5a8c95a-db8f-43c0-b9a6-72449be57a8e")
+	)
+	(wire
+		(pts
+			(xy 25.4 166.37) (xy 25.4 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d5effb03-9ff2-4224-9e8d-5e004c59a9bf")
+	)
+	(wire
+		(pts
+			(xy 175.26 74.93) (xy 175.26 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d5f5a51d-da06-4592-9fa9-0831e872ac97")
+	)
+	(wire
+		(pts
+			(xy 91.44 77.47) (xy 81.28 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d5f5b958-1779-4e02-9b42-287b20597300")
+	)
+	(wire
+		(pts
+			(xy 33.02 176.53) (xy 33.02 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d8b45d6c-0839-4a5b-a3bd-918527c56f26")
+	)
+	(wire
+		(pts
+			(xy 127 163.83) (xy 101.6 163.83)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d90f07b1-c3a5-41b0-8b8a-d8a3f836b0bf")
+	)
+	(wire
+		(pts
+			(xy 172.72 74.93) (xy 175.26 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "db0143f5-2cba-441c-ada3-987725851ea4")
+	)
+	(wire
+		(pts
+			(xy 127 115.57) (xy 137.16 115.57)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dc63de46-45b6-48a0-add6-4a4280773126")
+	)
+	(wire
+		(pts
+			(xy 223.52 41.91) (xy 246.38 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dd2715bc-5ca9-41f2-9ef3-bbeb0f95b40e")
+	)
+	(wire
+		(pts
+			(xy 53.34 176.53) (xy 53.34 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "decab805-8276-4489-8d49-74b335547a21")
+	)
+	(wire
+		(pts
+			(xy 152.4 100.33) (xy 152.4 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e36dfe92-dff1-41c0-b84f-b49affa91705")
+	)
+	(wire
+		(pts
+			(xy 60.96 46.99) (xy 60.96 49.53)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e747e0a8-6a7b-441d-b55b-4f3e08cb5f88")
+	)
+	(wire
+		(pts
+			(xy 76.2 166.37) (xy 76.2 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ea2ee31b-0737-4b3d-8604-7627dd85dd98")
+	)
+	(wire
+		(pts
+			(xy 246.38 39.37) (xy 223.52 39.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eb771aa8-0c09-44d5-a5b2-77df8db35eca")
+	)
+	(wire
+		(pts
+			(xy 30.48 34.29) (xy 25.4 34.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ee654685-2ee3-494e-a483-0f7db9ca71f6")
+	)
+	(wire
+		(pts
+			(xy 246.38 97.79) (xy 223.52 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fc458bf7-ab6a-4add-b445-307a87dcde98")
+	)
+	(wire
+		(pts
+			(xy 223.52 46.99) (xy 246.38 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fd1deeae-14d4-4695-b337-e77154f02732")
+	)
+	(wire
+		(pts
+			(xy 58.42 179.07) (xy 58.42 176.53)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fd973023-d7db-42c2-a8c9-2ddb0303a9ef")
+	)
+	(wire
+		(pts
+			(xy 228.6 80.01) (xy 228.6 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fdddc3f6-e5f8-43f7-aeba-c40e585c3162")
+	)
+	(wire
+		(pts
+			(xy 101.6 163.83) (xy 101.6 166.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fe906eab-f1fb-4ab3-b2e5-8a6038fb938a")
+	)
+	(wire
+		(pts
+			(xy 73.66 82.55) (xy 73.66 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ff3f1b9d-f256-40f6-82ef-124c3e5356a4")
+	)
+	(label "MUTE"
+		(at 127 130.81 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "041ca9ee-d9f7-460f-8bb5-72bd2779182d")
+	)
+	(label "FILTER"
+		(at 106.68 153.67 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "08e9d446-6569-4d7b-a791-2da1ec757fbf")
+	)
+	(label "SCL/SCK"
+		(at 223.52 54.61 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a1ad666-9ae9-4a2a-b7a8-ea9e537555b9")
+	)
+	(label "CAP+"
+		(at 127 77.47 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "2aa97b87-6543-4252-940f-71e64e888bc4")
+	)
+	(label "M/S"
+		(at 76.2 115.57 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "3241ef8c-377e-47a6-b70e-42ce1733ca0a")
+	)
+	(label "FILTER"
+		(at 223.52 59.69 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "408ef637-1638-45f3-ad12-cdbd1d2879e8")
+	)
+	(label "AGAIN"
+		(at 76.2 113.03 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "424f918b-6579-4511-8135-483ede11d104")
+	)
+	(label "CAP-"
+		(at 127 82.55 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "4518aacc-a517-462f-9444-e4ebeca0fac5")
+	)
+	(label "ATT0"
+		(at 48.26 161.29 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "456c9112-9320-4712-a4f8-a60b2c7a5185")
+	)
+	(label "MODE1"
+		(at 73.66 107.95 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "47b501a1-fece-4fb7-8b34-8aff22cdc7d6")
+	)
+	(label "MCLK"
+		(at 223.52 92.71 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c48a366-7c03-47e0-86f7-b58acda87c12")
+	)
+	(label "WORDSEL_IN"
+		(at 223.52 85.09 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f61354d-9463-40fb-b9e2-113f69554c12")
+	)
+	(label "SDA/MOSI"
+		(at 223.52 52.07 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cadcbcf-9e24-4f63-85f5-9f06e09d7986")
+	)
+	(label "OUTR"
+		(at 177.8 95.25 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "634ae171-c9e8-4807-99bc-0519e537c78d")
+	)
+	(label "ATT0"
+		(at 223.52 57.15 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "6426facb-2170-4463-a6cc-4412786e6aec")
+	)
+	(label "ADDR1/MISO/FMT"
+		(at 106.68 156.21 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "690c4efd-6b5b-4ee9-81d3-7c4b92b41bfe")
+	)
+	(label "MUTE"
+		(at 223.52 95.25 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a43f1c3-0683-4636-8597-257fdf574aa5")
+	)
+	(label "AGAIN"
+		(at 33.02 161.29 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b50346b-dc4e-4a95-bec2-1307c7bb4da2")
+	)
+	(label "OUTL"
+		(at 246.38 130.81 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "78076e75-6bda-4fc3-bac4-557f9343594c")
+	)
+	(label "MODE1"
+		(at 223.52 46.99 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "79d2ffc7-9c08-490d-b544-877f8f203d4f")
+	)
+	(label "DATA_IN"
+		(at 223.52 87.63 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "886857f6-a30c-4f7a-a9df-d701290dd368")
+	)
+	(label "MODE1"
+		(at 71.12 161.29 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c5088cd-60f6-4e0e-9610-7040f3792ebc")
+	)
+	(label "MUTE"
+		(at 106.68 161.29 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "93c547eb-2491-42bb-9fd5-0bbbbaa91648")
+	)
+	(label "ADDR1/MISO/FMT"
+		(at 68.58 100.33 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "a36adcfe-a27b-43f2-9ac9-c799d60d3a38")
+	)
+	(label "MODE2/CS"
+		(at 76.2 161.29 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3d0b308-996f-4ff8-85a6-b867a7930604")
+	)
+	(label "VNEG"
+		(at 129.54 100.33 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3fca0a3-2ba8-4a84-85cb-de863a0de1bd")
+	)
+	(label "LDOO"
+		(at 129.54 115.57 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "aaefe3ac-4afa-46d8-92e4-b237ad74bd4c")
+	)
+	(label "MODE2/CS"
+		(at 73.66 110.49 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0b5f8c6-2669-4351-82df-dbf481d2488a")
+	)
+	(label "BITCLK_IN"
+		(at 223.52 90.17 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1bfce55-72cb-4b52-ad78-c077e30b8bfb")
+	)
+	(label "DEMPH"
+		(at 129.54 97.79 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4a9a5c1-f205-433b-9aaa-7f457f24f19d")
+	)
+	(label "WORDSEL_IN"
+		(at 73.66 92.71 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc15d3a4-4c4f-4861-9c87-f14df0f9bdea")
+	)
+	(label "DEMPH"
+		(at 106.68 163.83 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc3635e6-863f-4e54-9aaa-924288093f43")
+	)
+	(label "ADDR2/SDOUT"
+		(at 223.52 41.91 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcf64f41-bce6-4311-ba70-ee79be9d7401")
+	)
+	(label "ADDR2/SDOUT"
+		(at 68.58 102.87 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8453422-c690-4a37-b547-49472d27b5ce")
+	)
+	(label "SCL/SCK"
+		(at 58.42 161.29 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9164c20-eda4-4fde-892a-d1e92ce26189")
+	)
+	(label "ADDR1/MISO/FMT"
+		(at 223.52 39.37 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc6e41ca-d802-4b07-b2e2-cf9d5f64fe48")
+	)
+	(label "BITCLK_IN"
+		(at 73.66 87.63 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "d259004f-5168-413e-b770-a9dfabc2eb37")
+	)
+	(label "M/S"
+		(at 25.4 161.29 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "d34cbf4b-69a2-4d67-8a71-58695f156bc5")
+	)
+	(label "FILTER"
+		(at 76.2 120.65 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6fb91fa-1a04-4791-9af2-5d9e2af3d08b")
+	)
+	(label "OUTR"
+		(at 246.38 125.73 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "e632f32e-5571-4d64-8401-296667365b58")
+	)
+	(label "DEMPH"
+		(at 223.52 62.23 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "e72cdee3-cfb6-44ff-ab7b-150f039b3148")
+	)
+	(label "DATA_IN"
+		(at 73.66 90.17 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec42e4e9-3352-4838-9a57-4c7be0cd00aa")
+	)
+	(label "AGAIN"
+		(at 223.52 44.45 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed925bc6-cf64-440f-b140-348d00cbe658")
+	)
+	(label "SCL/SCK"
+		(at 129.54 110.49 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f034a5ee-1563-4d6f-9150-baf4ee81cb3f")
+	)
+	(label "SDA/MOSI"
+		(at 53.34 161.29 90)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0359235-92e8-44d3-a831-9e8a4c5a56ce")
+	)
+	(label "OUTL"
+		(at 177.8 74.93 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f04730da-508f-48af-a2ac-1aec4016a0d3")
+	)
+	(label "MCLK"
+		(at 106.68 166.37 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f12e4c1b-4452-4036-bfb6-f9ee69f5236b")
+	)
+	(label "SDA/MOSI"
+		(at 129.54 107.95 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6769646-f598-477c-86ef-49e67de32a88")
+	)
+	(label "MODE2/CS"
+		(at 223.52 49.53 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6f47c4e-3a5b-48d6-82dc-f823507238d4")
+	)
+	(label "OUTL"
+		(at 223.52 97.79 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f75b77fa-bc1c-49f6-8fe6-4b869ac8cbcd")
+	)
+	(label "ATT0"
+		(at 76.2 118.11 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "fab0a4b4-cec9-4b8c-bb3f-40bb0f1dbf34")
+	)
+	(label "OUTR"
+		(at 223.52 102.87 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb0ec6b5-e93a-447d-9c14-387216d96853")
+	)
+	(label "MCLK"
+		(at 73.66 95.25 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff0ec237-5cd0-460e-8c02-2e70c77453c1")
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 60.96 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00416f26-8d0d-4c29-a3e4-9561aed578e3")
+		(property "Reference" "C12"
+			(at 58.67 43.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 63.26 43.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0805-NO"
+			(at 60.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43bea115-28bb-4609-9711-03e7e8706f51")
+		)
+		(pin "2"
+			(uuid "40708a14-c837-4129-9ef6-bfa2a9d7566b")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:RESISTOR_4PACK")
+		(at 71.12 171.45 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08747b19-48fc-40e3-b7e6-acb252c0959d")
+		(property "Reference" "R15"
+			(at 68.58 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:RESPACK_4X0603"
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed22e574-eb41-4762-b4ca-d90b09019c80")
+		)
+		(pin "8"
+			(uuid "1654d057-7d64-4401-838e-c87b9f809268")
+		)
+		(pin "2"
+			(uuid "cbcd4ae5-08bd-4173-b558-0353c066101d")
+		)
+		(pin "7"
+			(uuid "60d606d8-36da-4f12-8761-8e0109ac90c1")
+		)
+		(pin "3"
+			(uuid "22912920-392a-4e32-bbe8-3ea5abe06c46")
+		)
+		(pin "6"
+			(uuid "f50104fc-b9f2-4aeb-aa40-108f86003f71")
+		)
+		(pin "4"
+			(uuid "e7530904-068d-4f54-ae01-1e1639a70d7a")
+		)
+		(pin "5"
+			(uuid "91955d6b-c8c8-4a77-8415-2546ec4cc6d5")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "R15")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 137.16 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a09a712-9598-427c-8a89-7503b5c4689a")
+		(property "Reference" "#AGND20"
+			(at 137.16 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 134.62 130.81 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac65c508-b04d-44df-b3cc-96235c8affe6")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:MOUNTINGHOLE2.5")
+		(at 246.38 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0beeef8d-9648-4534-9674-9035369f5831")
+		(property "Reference" "U$13"
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MOUNTINGHOLE2.5"
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "opennugget:MOUNTINGHOLE_2.5_PLATED"
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "U$13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 218.44 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10d22f1c-fe6d-4404-ace7-3f41f3f4ad55")
+		(property "Reference" "#AGND8"
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 215.9 107.95 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0a1da44-53fb-49ac-9387-c7d0061d8584")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 86.36 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11af96b1-2008-416f-861f-c9a46b57bdcd")
+		(property "Reference" "#AGND7"
+			(at 86.36 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 83.82 186.69 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "660a2933-2a80-40b1-9e16-4f124fe8cc8c")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:CAP_CERAMIC0603_NO")
+		(at 137.16 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "134974c0-abf2-47a4-8fbe-fd951e410345")
+		(property "Reference" "C2"
+			(at 135.91 79.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 135.91 75.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0603-NO"
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cd20154-46fd-4ba4-89aa-efd3709dc4cf")
+		)
+		(pin "2"
+			(uuid "2abdddf6-4294-4439-92ce-d5cae797d49a")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 91.44 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17c070e1-976e-4a49-84af-ba4292eded28")
+		(property "Reference" "#AGND22"
+			(at 91.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 88.9 146.05 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec6aa6d7-a4dc-4949-975c-86f1e35c3737")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:CAP_CERAMIC0603_NO")
+		(at 116.84 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f1d35f6-981c-4115-afdd-899c8de2532a")
+		(property "Reference" "C21"
+			(at 114.55 35.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 119.14 35.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0603-NO"
+			(at 116.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ac096a3-74a6-4cb3-99fc-bf632f4964ce")
+		)
+		(pin "2"
+			(uuid "60fc0d53-881a-4f09-a545-b383220b38fa")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:RESISTOR_4PACK")
+		(at 106.68 171.45 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fb86d76-3149-43fa-80cf-93210b8967cb")
+		(property "Reference" "R1"
+			(at 104.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 106.68 171.45 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:RESPACK_4X0603"
+			(at 106.68 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7af00713-8fd4-4200-b516-b3ecfee53351")
+		)
+		(pin "8"
+			(uuid "b54f6932-5f73-4f3b-86c6-93105f2736d8")
+		)
+		(pin "2"
+			(uuid "2f29a59d-168a-46b6-8b3e-09b289599071")
+		)
+		(pin "7"
+			(uuid "092e423e-1614-4064-ab82-7305ac91e096")
+		)
+		(pin "3"
+			(uuid "71338569-ca7b-4918-9da0-33fd8b0eb59f")
+		)
+		(pin "6"
+			(uuid "9977afae-ffea-4d96-bbe2-d13fa7df3f99")
+		)
+		(pin "4"
+			(uuid "98896f53-bf63-4f7c-ae64-9be912eaf7ac")
+		)
+		(pin "5"
+			(uuid "1c919f3c-7dce-4496-a5ad-a620878633b9")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "R1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:MOUNTINGHOLE2.5")
+		(at 256.54 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20bd902e-16d7-474e-836a-b9a4e88bcc5b")
+		(property "Reference" "U$11"
+			(at 256.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MOUNTINGHOLE2.5"
+			(at 256.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "opennugget:MOUNTINGHOLE_2.5_PLATED"
+			(at 256.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "U$11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 175.26 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2320c1de-4ee8-4ea0-80c2-f5b94acda7ec")
+		(property "Reference" "#AGND5"
+			(at 175.26 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 172.72 92.71 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18f998ee-b18f-4a69-b534-c5b18ab7c09d")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:3.3V")
+		(at 58.42 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2527a8fa-aa6b-4812-a3f3-8e46d96b5d03")
+		(property "Reference" "#U$15"
+			(at 58.42 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 59.944 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fa75e15-4784-428e-9891-84e8854fbf9c")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 175.26 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "254ea0da-049b-46eb-8628-5e99298afd4b")
+		(property "Reference" "#AGND3"
+			(at 175.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 172.72 118.11 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63df7553-f8f5-4729-89d2-dc393c3a9a21")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 152.4 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2852c1e5-f6aa-4605-9b77-b1abbe64ef65")
+		(property "Reference" "#AGND11"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 149.86 113.03 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39f0a149-421e-40fe-8f5c-d22a395717df")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:HEADER-1X1070MIL")
+		(at 248.92 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29b12b3f-410b-4e46-b4ad-1d8d1a2e5203")
+		(property "Reference" "JP2"
+			(at 242.57 36.195 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "HEADER-1X1070MIL"
+			(at 242.57 67.31 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "opennugget:1X10_ROUND70"
+			(at 248.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd851221-a013-4dd6-8955-31743e55250c")
+		)
+		(pin "2"
+			(uuid "c2600380-4772-4953-99cb-8069a5b1e4ed")
+		)
+		(pin "3"
+			(uuid "d5bed578-92c9-4ad3-aa03-d6ce07bfb92c")
+		)
+		(pin "4"
+			(uuid "da497f29-d8c6-4d80-8362-4ef36c140e66")
+		)
+		(pin "5"
+			(uuid "dfec6a41-0b08-4cf4-9122-a2e9efa05a7f")
+		)
+		(pin "6"
+			(uuid "5a283c10-8fdf-4573-9787-55372302aab0")
+		)
+		(pin "7"
+			(uuid "d22950bd-9a90-49ff-8c16-6b3936ace814")
+		)
+		(pin "8"
+			(uuid "93ffacf7-1965-45bd-9002-9bd4af9165f8")
+		)
+		(pin "9"
+			(uuid "28b0cf47-0ac6-46f1-b994-324e895ad17b")
+		)
+		(pin "10"
+			(uuid "97cad6a9-19c0-4811-b037-78145785ad66")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 218.44 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "304b2fd0-dbc3-46e8-ba08-13c6b0e153b2")
+		(property "Reference" "#AGND19"
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 215.9 90.17 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03bd6a43-a7f4-4eab-a5b1-0e8891887118")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 25.4 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3455eed5-743b-4e67-97ca-a11e70beaa3c")
+		(property "Reference" "C11"
+			(at 23.11 43.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 27.7 43.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0805-NO"
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03528478-fc20-4357-906e-069fd624ac86")
+		)
+		(pin "2"
+			(uuid "dc190819-56af-44bf-b639-e5f913a70a01")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:PCM5122")
+		(at 109.22 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36ae2d5b-f4e1-4a58-ba2c-b98a4f78a98e")
+		(property "Reference" "U1"
+			(at 96.52 73.93 0)
+			(effects
+				(font
+					(size 2.0828 1.7703)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PCM5122"
+			(at 96.52 139.89 0)
+			(effects
+				(font
+					(size 2.0828 1.7703)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "opennugget:SSOP-28N"
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "ef48f6cc-aa8e-4f26-9dd7-0d899c71acbc")
+		)
+		(pin "1"
+			(uuid "4daca825-7a3d-4a6a-a181-0561d60e6b2b")
+		)
+		(pin "28"
+			(uuid "c6a42ab6-62fc-4056-ab73-3f6c0dfe6009")
+		)
+		(pin "21"
+			(uuid "618144e4-0abd-4f29-85c8-899a50636a12")
+		)
+		(pin "22"
+			(uuid "4c0d2bae-3590-4603-a498-e4fef20d22d4")
+		)
+		(pin "23"
+			(uuid "2b13506a-07d6-4fde-974e-2c3bf714234a")
+		)
+		(pin "20"
+			(uuid "432df533-5791-4e3c-813f-ef80cec4dcfd")
+		)
+		(pin "24"
+			(uuid "b79868ae-e7a6-4328-9114-c04e82fe5f73")
+		)
+		(pin "16"
+			(uuid "6977776c-6c69-4dcf-828f-f70930e35813")
+		)
+		(pin "17"
+			(uuid "507a5055-7312-4040-a2c0-1d32ea503ff9")
+		)
+		(pin "18"
+			(uuid "362af6f0-90cb-42cf-ab65-b8e5f50a62a5")
+		)
+		(pin "15"
+			(uuid "c13bc24b-8fb4-40cb-8372-b96154ff1d0d")
+		)
+		(pin "14"
+			(uuid "c6c1ea3b-f93c-41c1-9e76-1743261b83a2")
+		)
+		(pin "13"
+			(uuid "fc97903f-edb4-419a-a481-b75c821cb51a")
+		)
+		(pin "19"
+			(uuid "209c96a9-15ba-4c82-90ef-19b92a5e2021")
+		)
+		(pin "9"
+			(uuid "15c440be-8763-4ec0-b068-abe735a974a9")
+		)
+		(pin "3"
+			(uuid "9abeea8f-1597-482e-8517-7713dfb33ea9")
+		)
+		(pin "27"
+			(uuid "1cd2ba0f-ff42-4424-ad03-ba88e63faa4d")
+		)
+		(pin "2"
+			(uuid "1703f0cf-5cd2-46b7-9fc6-40e4e8e80557")
+		)
+		(pin "4"
+			(uuid "4175b245-5c75-45e4-8d58-70b583c3aaa6")
+		)
+		(pin "6"
+			(uuid "968ac9d4-d72d-46d2-a65c-979ab66148b0")
+		)
+		(pin "7"
+			(uuid "8291c388-6a11-43d4-9e0b-868f7ad564a1")
+		)
+		(pin "10"
+			(uuid "184c568a-a78a-4af4-b235-84818f9ef323")
+		)
+		(pin "5"
+			(uuid "4decb962-24ea-4161-947f-8befbf331ed5")
+		)
+		(pin "11"
+			(uuid "c1a8e38d-12c4-499b-8636-c8f5f16c445d")
+		)
+		(pin "12"
+			(uuid "2a307d9d-1770-4868-afa1-6ffc266957f2")
+		)
+		(pin "26"
+			(uuid "b0e3fda0-4049-4db8-a48d-48e89edab52d")
+		)
+		(pin "25"
+			(uuid "9edd8fff-8bf7-46e7-af01-6d39724692b9")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:VIN")
+		(at 228.6 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37c0279a-dc5a-4b79-9bdb-61d6f569fc43")
+		(property "Reference" "#U$24"
+			(at 228.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIN"
+			(at 227.076 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56b31539-7d46-417a-b020-9c57ef4d758c")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 109.22 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "382336d7-4ba6-4779-a500-f1d2784e53cc")
+		(property "Reference" "C22"
+			(at 106.93 35.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 111.52 35.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0805-NO"
+			(at 109.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aae0b8c0-fa5c-4729-8477-18353299f29e")
+		)
+		(pin "2"
+			(uuid "ab475fcc-be0f-4ac5-a749-904c0f5997ad")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:CAP_CERAMIC0603_NO")
+		(at 142.24 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b5b3e70-2ce6-40b9-9820-9781f0cd4f21")
+		(property "Reference" "C14"
+			(at 147.57 121.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 144.54 121.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0603-NO"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee07c8b0-78d2-4283-adac-da56cdabde82")
+		)
+		(pin "2"
+			(uuid "01903890-49b7-4b71-825b-8edbe5ae0e64")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:3.3V")
+		(at 71.12 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40eacf43-9a8d-47e6-885e-afdea63f5f61")
+		(property "Reference" "#U$10"
+			(at 71.12 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 69.596 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0240143a-c544-46db-8a9a-89ed0e74dbb9")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 142.24 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41429a9c-51c7-409f-8c08-e45ff082dd45")
+		(property "Reference" "#AGND21"
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 139.7 113.03 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9649e153-8bac-47fa-a5b7-79ce24d4f2bc")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:VIN")
+		(at 25.4 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "445a3e7a-af32-44a8-b29d-dd6dac955fa6")
+		(property "Reference" "#U$22"
+			(at 25.4 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIN"
+			(at 23.876 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18abd590-7200-4079-9839-b11cdea0cdd6")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 33.02 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a238c23-dd06-465c-be53-e7493d753ef0")
+		(property "Reference" "#AGND27"
+			(at 33.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 30.48 186.69 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45f839d7-ed0c-4ad8-a2af-0524b1625ade")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:3.3V")
+		(at 96.52 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4acabf24-fe12-4979-ab95-590736db39be")
+		(property "Reference" "#U$3"
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 98.044 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b38ca23-b8dc-4711-9082-ae9a92864c7a")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 60.96 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f5927a4-6a6b-4ca0-a605-649149aa4831")
+		(property "Reference" "#AGND2"
+			(at 60.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 58.42 54.61 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f8a1868-d62d-4fe1-8021-488f966ae46b")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 109.22 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5018e4b1-7931-451f-ae83-2c5a21b730ab")
+		(property "Reference" "#AGND14"
+			(at 109.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 104.14 46.99 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "458032fb-0239-43f7-8c5a-c8e14ec29bbf")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AVDD")
+		(at 109.22 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "545af7a7-1089-48b0-b180-446e41cc04e3")
+		(property "Reference" "#U$9"
+			(at 109.22 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 107.696 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05fadb11-32c3-437b-b66d-1ec1a01b05a8")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:RESISTOR_4PACK")
+		(at 48.26 171.45 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58764605-aefb-41d7-9542-fc35124fc4d2")
+		(property "Reference" "R3"
+			(at 45.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 48.26 171.45 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:RESPACK_4X0603"
+			(at 48.26 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3482222-79b0-445c-8313-600e766127fb")
+		)
+		(pin "8"
+			(uuid "810b1487-4b5b-497e-aea1-358322ddb683")
+		)
+		(pin "2"
+			(uuid "06d6d0b0-74a7-49f9-ad04-a2d01e14f756")
+		)
+		(pin "7"
+			(uuid "2d74d08d-c574-4489-97ff-771992a5b7f4")
+		)
+		(pin "3"
+			(uuid "536f6d0b-6c5e-4c58-b72c-c2849d4522bd")
+		)
+		(pin "6"
+			(uuid "42619d00-7a89-4091-99e6-9c0461f3a092")
+		)
+		(pin "4"
+			(uuid "8295dc79-3d88-4f93-93bd-27e0bb457530")
+		)
+		(pin "5"
+			(uuid "cb8ee16a-b070-48b8-b567-221424e29c47")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "R3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:3.3V")
+		(at 53.34 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "592aac42-28db-42d8-bea6-5be9701a6d8b")
+		(property "Reference" "#U$16"
+			(at 53.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 54.864 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c94aef70-18d2-459a-81b8-2c65ae93b9d0")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:RESISTOR_0603_NOOUT")
+		(at 167.64 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e74664f-e8c6-4b42-9106-8d3f87ddaadf")
+		(property "Reference" "R6"
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0603-NO"
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7097e20-163e-4a59-80e6-8e04e236d3dd")
+		)
+		(pin "2"
+			(uuid "5155dfce-fee9-4eea-bf17-3e4e8711a621")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:TRRS_2SWITCH_PJ332A")
+		(at 205.74 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ff9e70e-e0f4-4b0d-a1ca-a734b302b318")
+		(property "Reference" "X3"
+			(at 203.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TRRS_2SWITCH_PJ332A"
+			(at 193.04 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "opennugget:PJ-332A"
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fc3fcf4-a399-4481-b2d9-68881dcbb013")
+		)
+		(pin "3"
+			(uuid "b79d1003-f356-44da-8fe3-e3868f1483b2")
+		)
+		(pin "5"
+			(uuid "8324590b-54a6-446d-9db2-ac7918bf34e6")
+		)
+		(pin "6"
+			(uuid "2c99fff7-5f62-4797-a0a9-b8ea3686df34")
+		)
+		(pin "4"
+			(uuid "e99bad32-8a53-4fd5-8d8e-3b0a7e0d519d")
+		)
+		(pin "2"
+			(uuid "df6764ee-aa2a-43f6-a303-90e41ea18909")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "X3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:RESISTOR_4PACK")
+		(at 86.36 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65acde3a-b7b0-4b7c-bca3-e3d28415141d")
+		(property "Reference" "R1"
+			(at 83.82 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 86.36 171.45 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:RESPACK_4X0603"
+			(at 86.36 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e292888-1a2e-4b15-9f95-8adc82346f17")
+		)
+		(pin "8"
+			(uuid "e62c69f8-77c3-4ccd-8cb3-fa20151e9a71")
+		)
+		(pin "2"
+			(uuid "8f767b1a-ecfd-413a-b0ee-c240b57ad9c6")
+		)
+		(pin "7"
+			(uuid "79fdfb4b-27f9-4139-9fd0-adfca00dc220")
+		)
+		(pin "3"
+			(uuid "b7b7af56-6aeb-40b7-a2ef-73143e63003e")
+		)
+		(pin "6"
+			(uuid "d8bacbfd-aa26-43f8-8423-41ef0eb20559")
+		)
+		(pin "4"
+			(uuid "5f7ff71b-c3d3-4e04-bf92-ebcfe3068e86")
+		)
+		(pin "5"
+			(uuid "12abb606-f538-4bf2-98b0-8a0604246278")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:RESISTOR_4PACK")
+		(at 76.2 171.45 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6709a190-42d6-46ba-8d7b-0ec459d42166")
+		(property "Reference" "R15"
+			(at 73.66 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 76.2 171.45 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:RESPACK_4X0603"
+			(at 76.2 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1486f122-aafa-4a79-90b8-19f79f100593")
+		)
+		(pin "8"
+			(uuid "74bedc7c-f36f-431e-ae0b-4211dc21ae47")
+		)
+		(pin "2"
+			(uuid "7bfcc1af-2d0b-4aad-8f97-f259d80a0d4f")
+		)
+		(pin "7"
+			(uuid "070e1995-8c3d-47ef-8d53-003cb81c205e")
+		)
+		(pin "3"
+			(uuid "69f982b1-c48c-4f9c-b422-60f9818f1470")
+		)
+		(pin "6"
+			(uuid "645d3f8e-bd0e-46e0-8d4d-e5d884824506")
+		)
+		(pin "4"
+			(uuid "ec845bd5-5c52-4030-b4e4-93ceade072c7")
+		)
+		(pin "5"
+			(uuid "ad6bce52-5d67-40c9-aef1-17417b672ad3")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "R15")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 152.4 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6db4c942-1525-4770-893b-12848a9efce4")
+		(property "Reference" "C3"
+			(at 150.11 104.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 154.7 104.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0805-NO"
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3639fbf9-27ef-4868-b361-ad226ab193eb")
+		)
+		(pin "2"
+			(uuid "48d0bffb-c5c4-43bf-b319-93fa81e75994")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:RESISTOR_4PACK")
+		(at 25.4 171.45 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f8b8c77-4ddf-40ed-b721-6aa74a440312")
+		(property "Reference" "R3"
+			(at 22.86 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 25.4 171.45 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:RESPACK_4X0603"
+			(at 25.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2910f2b8-10a7-4b12-a512-2a404eaa404e")
+		)
+		(pin "8"
+			(uuid "88800954-294b-4f75-9627-7884cd93112c")
+		)
+		(pin "2"
+			(uuid "743d138d-8222-479f-848c-20b58ca27f24")
+		)
+		(pin "7"
+			(uuid "1d4831bb-71d7-4265-9a43-a92284c75a28")
+		)
+		(pin "3"
+			(uuid "c5099f5c-7492-46fb-9091-a7aa6a76a09d")
+		)
+		(pin "6"
+			(uuid "3e6cd8e3-3b05-482c-aeee-28c74bca50b3")
+		)
+		(pin "4"
+			(uuid "20ecafa2-a8c7-4009-88b4-ce7dd45312cd")
+		)
+		(pin "5"
+			(uuid "0783a804-9d3f-4ece-8535-da0b6ecd86e6")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "R3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:3.3V")
+		(at 48.26 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "760aadc1-11df-4527-b557-c3eafa030067")
+		(property "Reference" "#U$8"
+			(at 48.26 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 49.784 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28568595-68b7-475c-96ab-e58fcdd5af8f")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:3.3V")
+		(at 83.82 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7642c97a-3fe9-4252-93e1-f22ba23fa0e0")
+		(property "Reference" "#U$4"
+			(at 83.82 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 82.296 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3be15fe0-b3f6-41d5-99be-8bcf3dfb9a49")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:MOUNTINGHOLE2.5")
+		(at 241.3 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ad8c9d0-d835-4fd6-9f34-8272852a4bcc")
+		(property "Reference" "U$14"
+			(at 241.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MOUNTINGHOLE2.5"
+			(at 241.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "opennugget:MOUNTINGHOLE_2.5_PLATED"
+			(at 241.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "U$14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 101.6 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83e84966-f683-423c-b5cb-028b3d78498c")
+		(property "Reference" "#AGND16"
+			(at 101.6 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 99.06 186.69 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9db16e06-d0eb-4100-88d2-f9639089417e")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:FERRITE-0603NO")
+		(at 91.44 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85d1923d-61fb-4505-94b4-6aa07ca81a2d")
+		(property "Reference" "FB1"
+			(at 92.71 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Ferrite"
+			(at 92.71 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "opennugget:0603-NO"
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c332f2a0-813c-4f5c-888a-21e7ed6e8847")
+		)
+		(pin "2"
+			(uuid "bcc87b1e-be65-4792-8843-62de5f19d71f")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:VREG_SOT23-5")
+		(at 43.18 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "870c508d-d87e-4534-9546-28e0d0b9e9d6")
+		(property "Reference" "U2"
+			(at 35.56 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "AP2127K-3.3"
+			(at 35.56 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "opennugget:SOT23-5"
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8176c5b9-4161-43a7-a4b4-6459da69d842")
+		)
+		(pin "5"
+			(uuid "3e93fa8a-5fc7-445b-b732-dbab82814560")
+		)
+		(pin "3"
+			(uuid "dce23325-62c1-4669-b745-b77537e93700")
+		)
+		(pin "2"
+			(uuid "ebe728d1-abe7-44ac-880f-3006e9468298")
+		)
+		(pin "4"
+			(uuid "3c8242d1-b14f-487a-be91-7e965bce439a")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:SOLDERJUMPER")
+		(at 68.58 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8922249e-299c-4fcc-82fb-a986b3933e44")
+		(property "Reference" "SJ1"
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPER"
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "opennugget:SOLDERJUMPER_ARROW_NOPASTE"
+			(at 68.58 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a635c67-7246-49af-844a-dbdba3492126")
+		)
+		(pin "2"
+			(uuid "c19dfd1b-b3ed-467b-b84f-1cd32c47f0d0")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "SJ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:RESISTOR_0603_NOOUT")
+		(at 101.6 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e358d9f-1c30-4d30-9ed8-b8b8b76da41f")
+		(property "Reference" "R8"
+			(at 99.06 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 101.6 171.45 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0603-NO"
+			(at 101.6 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65e15617-ac7d-483c-bee0-aeb366b310b1")
+		)
+		(pin "2"
+			(uuid "c7fb94d3-8d98-4177-a0c7-0d19b3030766")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AVDD")
+		(at 99.06 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ef01ed6-7825-4fd1-9f3f-ef3779b2a11e")
+		(property "Reference" "#U$1"
+			(at 99.06 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 97.536 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f0bcd1b-6876-4b88-bb4d-0b62bb8565ef")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:RESISTOR_0603_NOOUT")
+		(at 167.64 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9178eae8-430a-4008-ae3d-2925bc12c844")
+		(property "Reference" "R4"
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 167.64 74.93 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0603-NO"
+			(at 167.64 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "491b8190-118a-429a-944d-e494ecff51e0")
+		)
+		(pin "2"
+			(uuid "2e5dd3a0-462f-4df4-89d1-f0af61a2f330")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:RESISTOR_4PACK")
+		(at 96.52 171.45 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9751b8a1-7251-49d6-852d-69c430677243")
+		(property "Reference" "R1"
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:RESPACK_4X0603"
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30e6898d-b71f-4198-80db-4551f4a5b385")
+		)
+		(pin "8"
+			(uuid "cbaf3853-c30f-4eb4-8df8-1d3b4e98db60")
+		)
+		(pin "2"
+			(uuid "f3041056-d66a-4490-8a60-77360801d894")
+		)
+		(pin "7"
+			(uuid "9c54c3d3-6373-41bf-9ab7-67ba31f52a61")
+		)
+		(pin "3"
+			(uuid "60e88d3d-d2d7-423e-b508-7cc925af680c")
+		)
+		(pin "6"
+			(uuid "f2fc4de0-7b6b-4798-bef5-fccbd97afaa9")
+		)
+		(pin "4"
+			(uuid "2fdbe073-bdff-4644-90a2-f6e773cb0c98")
+		)
+		(pin "5"
+			(uuid "68334c1d-39a7-439d-81db-4302ad6fcd59")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "R1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AVDD")
+		(at 127 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "981c0ae2-54a2-41ad-a992-266d5c5e0d12")
+		(property "Reference" "#U$27"
+			(at 127 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 125.476 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbcfb502-342a-41e2-936e-46e2cb51ab53")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 30.48 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "989690f3-b652-4a59-82c6-87ed8b43a3ca")
+		(property "Reference" "#AGND4"
+			(at 30.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 27.94 54.61 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af8b4a9b-665b-497c-b56d-919fc3147ef1")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:CAP_CERAMIC0603_NO")
+		(at 142.24 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99047a05-0327-4eb4-a477-7e69f015bde1")
+		(property "Reference" "C1"
+			(at 139.95 104.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 144.54 104.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0603-NO"
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a7a61be-1b1d-4522-8419-4d10222b6405")
+		)
+		(pin "2"
+			(uuid "9a3e5bae-7e4d-4130-811f-ad57ca6feaa6")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 226.06 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bd0d892-831e-42ac-b689-ef0d8d3ae872")
+		(property "Reference" "#AGND1"
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 228.6 113.03 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6173a66b-36f4-4bd3-a594-cfab1329d1fc")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:RESISTOR_4PACK")
+		(at 33.02 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a546ca32-40b6-4ba1-874a-c4928f8961c6")
+		(property "Reference" "R15"
+			(at 30.48 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:RESPACK_4X0603"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93e42981-ad31-48a5-8709-e0ed2c842cff")
+		)
+		(pin "8"
+			(uuid "32ac58b0-3c5e-4ee6-baff-769f4b411bb9")
+		)
+		(pin "2"
+			(uuid "a887aa04-1a1d-4383-ae03-ee0d49935dce")
+		)
+		(pin "7"
+			(uuid "412570d9-b9c8-4a73-9283-927bd032b354")
+		)
+		(pin "3"
+			(uuid "d17216ce-820d-4fa9-a8d4-ff098183afe5")
+		)
+		(pin "6"
+			(uuid "65a3b7d5-215b-400c-b6b3-69b0156f7d8b")
+		)
+		(pin "4"
+			(uuid "2cfd2b9c-887b-450e-a01d-989dff793264")
+		)
+		(pin "5"
+			(uuid "56ec7a23-652d-4fda-9130-6066519b6d37")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:RESISTOR_4PACK")
+		(at 53.34 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a83823f0-4408-4683-8e55-88b515c6353b")
+		(property "Reference" "R3"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 53.34 171.45 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:RESPACK_4X0603"
+			(at 53.34 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2e92379-3cb5-4724-b03d-3b559a0805ae")
+		)
+		(pin "8"
+			(uuid "024c5be9-11c1-4062-a0b9-f69b228c3dc1")
+		)
+		(pin "2"
+			(uuid "f58142e6-3d24-49c9-aaec-5ec2dd58615c")
+		)
+		(pin "7"
+			(uuid "3d78388f-9237-42cb-a2e4-f825c6e40fee")
+		)
+		(pin "3"
+			(uuid "82f5cdd5-d683-4857-a54b-a19697d787ae")
+		)
+		(pin "6"
+			(uuid "56296c31-c418-4f52-b0cc-cb25266efb42")
+		)
+		(pin "4"
+			(uuid "690a77b0-b802-47cf-a8f7-3b51bdf90086")
+		)
+		(pin "5"
+			(uuid "ab67bcbe-9186-409c-b83a-8440760d34f3")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 60.96 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa5b488d-507e-4be7-aab8-cb0b69619fc5")
+		(property "Reference" "#AGND23"
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 58.42 118.11 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf03884d-b4e3-4a69-ae20-3da5b2db9b26")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:MOUNTINGHOLE2.5")
+		(at 251.46 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abedea10-6e8d-4682-9c60-1fb1721d48ba")
+		(property "Reference" "U$12"
+			(at 251.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MOUNTINGHOLE2.5"
+			(at 251.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "opennugget:MOUNTINGHOLE_2.5_PLATED"
+			(at 251.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "U$12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 127 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac421222-21af-4928-be86-c5893b3e303e")
+		(property "Reference" "C19"
+			(at 124.71 35.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 129.3 35.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0805-NO"
+			(at 127 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66d7d326-e3e7-4848-8783-4f649678ba4c")
+		)
+		(pin "2"
+			(uuid "1b71faaa-9272-4123-9256-54f13ebff13b")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:RESISTOR_4PACK")
+		(at 60.96 107.95 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adf4895a-b7b2-4a02-b9b7-ba4cfc02fbba")
+		(property "Reference" "R15"
+			(at 58.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 60.96 107.95 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:RESPACK_4X0603"
+			(at 60.96 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2287fe6-2c34-4847-b7a1-90b5eb7b7f6c")
+		)
+		(pin "8"
+			(uuid "6bc8089d-c3d9-4298-9457-b41f85f64e37")
+		)
+		(pin "2"
+			(uuid "8c2cbb03-8ade-4ba8-a5d5-31dcafe38e38")
+		)
+		(pin "7"
+			(uuid "c6fcb038-8ad6-4e02-b619-9275ae6bb187")
+		)
+		(pin "3"
+			(uuid "eae0bb86-bf70-4303-9f44-88db39348b46")
+		)
+		(pin "6"
+			(uuid "abd8954b-89c2-4d1e-8c83-4d04f0804057")
+		)
+		(pin "4"
+			(uuid "76468e44-8d7d-46fe-b8aa-be1f6253737b")
+		)
+		(pin "5"
+			(uuid "b1cb7efa-6427-4db7-b9d0-52c163ecc247")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "R15")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 137.16 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aede1166-4a5b-4027-898b-f1ee3b893321")
+		(property "Reference" "C13"
+			(at 134.87 121.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 139.46 121.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0805-NO"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74b8a160-79f6-4968-ad7b-15249ecb54d2")
+		)
+		(pin "2"
+			(uuid "b72c4d5b-51d4-4a68-93a8-41a4f6c73266")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 116.84 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b26ecc32-2524-434c-a7ab-47d16214c1ba")
+		(property "Reference" "#AGND13"
+			(at 116.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 114.3 46.99 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b2864af-c658-4eae-9d95-7a9c15cb357b")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:CAP_CERAMIC0603_NO")
+		(at 71.12 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bacebbeb-dd58-443f-acd7-16a5fd723cd3")
+		(property "Reference" "C16"
+			(at 68.83 43.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 73.42 43.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0603-NO"
+			(at 71.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bf86a26-ba5c-4569-ab0c-8d2e80ffdaa7")
+		)
+		(pin "2"
+			(uuid "12b9211d-f065-4a53-a3bd-6d3ff64b0032")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:RESISTOR_4PACK")
+		(at 58.42 171.45 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be06e56b-e9e3-45db-a068-d0c6367ce896")
+		(property "Reference" "R3"
+			(at 55.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 58.42 171.45 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:RESPACK_4X0603"
+			(at 58.42 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "90e04bf0-ab62-4ca0-ab2e-80e7580f4af4")
+		)
+		(pin "1"
+			(uuid "8b388215-7a47-4825-8b03-c5342f67b3db")
+		)
+		(pin "8"
+			(uuid "6cfd2ab5-5563-4207-86dc-2b790d6bc8df")
+		)
+		(pin "2"
+			(uuid "91396df0-1c9e-49b8-bed3-4d61f0843734")
+		)
+		(pin "7"
+			(uuid "034b9013-9de4-4489-8ac2-2ea0353ea313")
+		)
+		(pin "3"
+			(uuid "5fe1efba-6070-479a-90c8-aeac6ff82f23")
+		)
+		(pin "6"
+			(uuid "16e34924-2081-4b7f-b434-b27970da6699")
+		)
+		(pin "4"
+			(uuid "524f928a-c604-4c32-b113-1cc95500b8e1")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "R3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AVDD")
+		(at 116.84 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c001567a-599e-4969-bc93-156bce2d5ce9")
+		(property "Reference" "#U$28"
+			(at 116.84 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 115.316 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc9a932a-c353-47e1-8321-61d0bedd84f8")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:CAP_CERAMIC0603_NO")
+		(at 175.26 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c80ef9cc-01c1-4e58-ada7-21a8804f76c5")
+		(property "Reference" "C8"
+			(at 172.97 101.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2nF"
+			(at 177.56 101.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0603-NO"
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c666cb1-4c91-45eb-af8b-09ff09fa82e7")
+		)
+		(pin "2"
+			(uuid "7150d4af-a1b2-4f78-914b-d25053596afd")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 25.4 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cad96f96-8b28-4a5e-a11b-83466f2f4249")
+		(property "Reference" "#AGND6"
+			(at 25.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 22.86 54.61 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ced6707-dc6d-43ac-86b9-2dafe2f40481")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 226.06 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d10e77f0-5573-48aa-81a3-54ea86685751")
+		(property "Reference" "#AGND10"
+			(at 226.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 223.52 140.97 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7ad685a-f420-4620-b612-63a12032672a")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:HEADER-1X1070MIL")
+		(at 248.92 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d51d2984-1623-43d7-b40d-d941aecde3f4")
+		(property "Reference" "JP3"
+			(at 242.57 76.835 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "HEADER-1X1070MIL"
+			(at 242.57 107.95 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "opennugget:1X10_ROUND70"
+			(at 248.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a6f1948-2944-4b2a-893c-3584ea147d52")
+		)
+		(pin "3"
+			(uuid "28ba1ebb-08fd-484a-b350-0f55f2eac337")
+		)
+		(pin "4"
+			(uuid "7cadd4cc-48f4-4cf5-898a-0014f055d5e8")
+		)
+		(pin "1"
+			(uuid "572a2dad-9724-4b6f-8a6d-893b23a97375")
+		)
+		(pin "5"
+			(uuid "830419b2-09ec-427f-9726-06d3e81b20b5")
+		)
+		(pin "6"
+			(uuid "6b56491f-2a2a-418e-910a-1d1a01352704")
+		)
+		(pin "7"
+			(uuid "879ffb3b-a4c3-4f29-a952-ac833a7ed999")
+		)
+		(pin "8"
+			(uuid "d96f407c-e452-485d-bff9-99276429e321")
+		)
+		(pin "9"
+			(uuid "1702b09d-fb54-4d8f-a206-a38b1764349f")
+		)
+		(pin "10"
+			(uuid "1acfd2e0-5450-4cac-8d95-58514d31ff2c")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AVDD")
+		(at 81.28 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcd94eb9-950d-40e8-ac50-f93a5d52a7c4")
+		(property "Reference" "#U$2"
+			(at 81.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 79.756 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09c1b7f9-d8b5-4e89-9e44-46e21f0509f3")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:3.3V")
+		(at 60.96 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "deb60874-3f40-4358-8768-0aa2eb8c1045")
+		(property "Reference" "#U$21"
+			(at 60.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 59.436 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8f741e0-8910-486a-8894-5e8ba52ba737")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 76.2 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0237b1d-fb35-4eb1-9975-be5651e4ae4b")
+		(property "Reference" "#AGND26"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 73.66 186.69 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c5f8a01-9a03-480a-97d2-20ca631666ae")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:3.3V")
+		(at 68.58 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e12987ee-3948-41b9-b81d-7a9578cb2c5b")
+		(property "Reference" "#U$17"
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 70.104 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2215434-407b-44a1-a5ed-191ede163958")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 91.44 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e141ddbd-1d7c-43b7-8a3c-e5d2cb3137c9")
+		(property "Reference" "#AGND15"
+			(at 91.44 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 88.9 186.69 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dc31534-fd2a-4eae-bf58-5ff25837889f")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:RESISTOR_4PACK")
+		(at 91.44 171.45 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4182d9f-0bf7-497d-93da-f64ec97fc7c7")
+		(property "Reference" "R1"
+			(at 88.9 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 91.44 171.45 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:RESPACK_4X0603"
+			(at 91.44 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64758961-bd7e-43e3-b8ab-78bd8128e153")
+		)
+		(pin "8"
+			(uuid "68e7316b-e8d1-4f74-9e64-569bb314d7d7")
+		)
+		(pin "2"
+			(uuid "e3b5965a-b2cf-4c30-b783-9d832f6151e7")
+		)
+		(pin "7"
+			(uuid "f8d1e26b-cb1d-4178-8aca-96af0fb4ce05")
+		)
+		(pin "3"
+			(uuid "25e493c1-7c20-49b5-813b-984cd63ac6e5")
+		)
+		(pin "6"
+			(uuid "92ee372f-4f6a-41ab-80cd-5a880e7dc3af")
+		)
+		(pin "4"
+			(uuid "8a503a07-3c69-41b0-bd60-94901422d8ee")
+		)
+		(pin "5"
+			(uuid "9d6c1a58-b13f-41f5-bf9e-91bb9b08eee9")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "R1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:3.3V")
+		(at 73.66 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e895f6f6-6e40-4545-a254-a79e38c0f761")
+		(property "Reference" "#U$7"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 72.136 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec4689be-c353-4827-9052-1303e4937e12")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#U$7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 106.68 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e96347ca-c9b5-420e-aad2-df49ba2581c9")
+		(property "Reference" "#AGND17"
+			(at 106.68 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 106.68 186.69 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13372987-0acb-4abc-9e44-b146f70dbf8a")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:CAP_CERAMIC0603_NO")
+		(at 175.26 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3c5c636-caa7-4c70-8f29-2d61392b1682")
+		(property "Reference" "C7"
+			(at 172.97 81.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2nF"
+			(at 177.56 81.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "opennugget:0603-NO"
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81ffff7e-54e2-48ef-a17f-05a27719eea4")
+		)
+		(pin "2"
+			(uuid "0f80e1c2-d38a-40dd-a32b-6302953edd09")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 71.12 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3d65c70-18af-47c0-becf-ce0bfb41014d")
+		(property "Reference" "#AGND25"
+			(at 71.12 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 66.04 186.69 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "606c3623-adad-4aec-955d-7969e1affe41")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 25.4 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7084244-7f07-4949-b7a6-e423f91c9552")
+		(property "Reference" "#AGND24"
+			(at 25.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 22.86 186.69 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84eec9b0-ebe7-495a-8bad-4309a8cd5850")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 71.12 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9e8ee7d-38b1-4200-91ee-48a76cdee4c5")
+		(property "Reference" "#AGND18"
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 68.58 54.61 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5af7b3c3-9d0b-4b56-a3f7-01f39395c64c")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "opennugget-eagle-import:AGND")
+		(at 127 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc48c3c1-bcef-49ae-848d-5e4737db7253")
+		(property "Reference" "#AGND12"
+			(at 127 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 124.46 46.99 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7306947-fcbd-4b76-ab63-2fec4a11deaf")
+		)
+		(instances
+			(project "opennugget"
+				(path "/eb8dfce9-ae07-4b9d-a1cf-d16a4063ed85/8d1744f6-d043-42a2-a803-2d484b1b3726"
+					(reference "#AGND12")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
