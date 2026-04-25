@@ -1,3 +1,6 @@
+# Excuse the spaghetti
+This repo is currently an absolute mess and I'm trying to move everything online so collaboration is easier. Updated CAD and EasyEDA drawings (currently being ported from KiCad) will be available soon.
+
 # What is this project?
 There have been a lot of fantastic and open-source DAP designs popping up recently, but nothing that has quite scratched my itch for a more modern and capable iPod-style DAP. While [tangara](https://www.crowdsupply.com/cool-tech-zone/tangara) and the [Echo R1](https://github.com/amachronic/echoplayer) both look like fantastic devices, they don't quite meet my wants from a modern DAP. 
 To me, the platonic ideal for a DAP is the iPod Video. Unfortunately, despite having spent tons of time and money dealing with iPods, they aren't always reliable, and fixing them can be really expensive. 
